@@ -18,7 +18,7 @@ def count_letter(content):
 
 def main():
     # Path to the books folder
-    folder_path = "/Users/lucasmadrid/workspace/github.com/bookbot/books"
+    folder_path = "/workspace/github.com/bookbot/books"
     count_word = 0
     count_letters = 0
 
