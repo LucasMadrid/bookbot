@@ -9,10 +9,7 @@ def count_letter(content):
         for letter in word.lower():
             if letter.isalpha():
                 count += 1
-                if letter in letter_dict:
-                    letter_dict[letter] += 1
-                else:
-                    letter_dict[letter] = 1
+                letter_dict[letter] = letter_dict.get(letter, 0) + 1
 
     return letter_dict
 
